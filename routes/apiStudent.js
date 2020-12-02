@@ -8,7 +8,7 @@ router.post('/new', async (req,res)=>{
         console.log(saveRes);
         res.send(req.body);
 });
-router.put('/update',async (req,res)=>{
+router.put('/update', async (req,res)=>{
 
 });
 module.exports = router
